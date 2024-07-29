@@ -1,0 +1,86 @@
+/* Home.css */
+
+.home-container {
+  /* Add any container styles if needed */
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+  gap: 1rem;
+  max-width: 960px; /* max-w-6xl converted to pixels */
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 7rem; /* my-7 converted to pixels */
+  min-height: 80vh; /* min-h-[80vh] converted to pixels */
+}
+
+.product-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item img {
+  width: 100%; /* Ensures images are full width within their container */
+  height: auto; /* Maintains aspect ratio */
+  margin-bottom: 1rem;
+}
+
+.product-item h2 {
+  font-weight: bold; /* Make heading bold */
+  font-size: 1.25rem; /* Adjust heading font size */
+}
+
+.product-item p {
+  color: #6b7280; /* Gray color for description */
+  margin-bottom: 1rem;
+}
+
+.product-item .price {
+  margin-top: auto; /* Align price to bottom */
+  font-size: 1.25rem; /* Adjust price font size */
+  color: #1a202c; /* Dark color for price */
+}
+
+.product-item .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.product-item button {
+  padding: 0.75rem 1.5rem;
+  background-color: #15803d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+  background-color: #105f2a;
+}
+
+.no-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+}
+
+.no-data p {
+  font-weight: bold;
+}

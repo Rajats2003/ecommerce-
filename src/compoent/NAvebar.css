@@ -1,0 +1,61 @@
+/* Container styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Logo styles */
+.logo img {
+  width: 100px;
+}
+
+/* Navigation links container styles */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Individual nav link styles */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  position: relative;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+}
+
+/* Active link styles */
+.active-link {
+  border-bottom: 2px solid white;
+}
+
+/* Cart icon styles */
+.cart-notification {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Notification badge styles */
+.cart-notification span {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: green;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+}
